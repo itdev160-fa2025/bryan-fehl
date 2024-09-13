@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<!-- The main head tag, used to define metadata for the document -->
+	<head>
+		<!-- Declare the encoding of the document -->
+		<meta charset="utf-8">
+
+        <!-- Provide a description of the web page for SEO purposes -->
+        <meta name="description" content="Working with links, images, and tables.">
+
+        <!-- Basic mobile optimized viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Give the document a proper title --> 
+		<title>Working with links, images, and tables</title> 
+	</head>
+
+	<!-- The body or contents of the document -->
+	<body>
+
+        <!-- The main contents of the web page -->
+        <main>
+            <!-- Add an image with a caption -->
+            <figure>
+                <img src="images/sloth.png">
+                <figcaption>A precious image of a sloth.</figcaption>
+            </figure>
+
+            <!-- Add an email link to my MATC email.-->
+            <a href="mailto:fehlb@gmatc.matc.edu">Contact Me by Email</a>
+
+            <!-- Create a complex table that contains multiple items that are summed in cost at the end.-->
+            <table id="complex-table" border="1">
+                <thead>
+                    <tr>
+                        <th scope="col">Item Name</th>
+                        <th scope="col">Item Count</th>
+                        <th scope="col">Item Cost</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Burger</td>
+                        <td>2</td>
+                        <td>$3</td>
+                    </tr>
+                    <tr>
+                        <td>Fries</td>
+                        <td>1</td>
+                        <td>$2</td>
+                    </tr>
+                    <tr>
+                        <td>Drink</td>
+                        <td>3</td>
+                        <td>$5</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr rowspan="2">
+                        <td  colspan="3"><strong>Total: $23</strong></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </main>
+
+	</body> 
+</html> 
