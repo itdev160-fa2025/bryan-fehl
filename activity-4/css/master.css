@@ -1,0 +1,56 @@
+
+/* Add some spacing on both sides of the page, give a background color
+   and use the Open Sans font for the entire body */
+body {
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #ffe8cb;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Add a rounded borer to the image, and set the image's height */
+img {
+    border-style: groove;
+    border-radius: 5px;
+    height: 200px;
+}
+
+/* Set the colors for the h2/h3 headings */
+h2 {
+    color:#9b1414;
+}
+h3 {
+    color: #235233;
+}
+
+.review-text::first-line{
+    font-weight: 700;
+}
+/* Set the p element with the product-description id to have a margin
+   and text alignment */
+p#product-description {
+    margin: 20px 0 20px 0;
+    text-align: justify;
+}
+
+/* Have the image float to the right of the product description
+   to allow for better use of space */
+figure {
+    float:right;
+}
+
+/* Italice the part of the reviews that refernece how long the item has been owned. */
+p.owned-time{
+    font-style:italic;
+}
+
+/* Emphasize the font of price */
+#price{
+    font-weight:900;
+}
+
+/* Emphasize the font of student price, and make it italicized */
+#student-price{
+    font-style: oblique;
+    font-weight:900;
+}
