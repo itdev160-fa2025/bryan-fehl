@@ -1,0 +1,34 @@
+/*
+    CSS for activity 5
+*/
+
+/* Create a default marign for the page, and use a custom Outfit font */
+body {
+    font-family: "Outfit", sans-serif;
+    margin: auto 30px;
+}
+
+/* Apply some formatting to the author name and date */
+#credits {
+    font-style: italic;
+    font-size: .75em;
+    margin-bottom: 20px;
+}
+
+/* Center the image so it's not as large on screen */
+#header-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Italicize the author, downloads, and stars values */
+.details {
+    font-style: oblique;
+}
+
+/* Bold the author, downloads, and stars titles */
+.title {
+    font-weight: bold;
+}
