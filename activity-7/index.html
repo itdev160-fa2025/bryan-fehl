@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<!-- The main head tag, used to define metadata for the document -->
+	<head>
+        <!--
+            Author: Bryan Fehl
+            Class: ITDEV-160-001
+        -->
+		<!-- Declare the encoding of the document -->
+		<meta charset="utf-8">
+
+        <!-- Provide a description of the web page for SEO purposes -->
+        <meta name="description" content="A simple todo list with javascript.">
+
+        <!-- Basic mobile optimized viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Import Inter google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+        <!-- Use custom style sheet -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+		<!-- Give the document a proper title --> 
+		<title>Todo List</title> 
+	</head>
+
+	<!-- The body or contents of the document -->
+	<body>
+
+        <header>
+            <h1>Todo List</h1>
+        </header>
+
+        <!-- The main contents of the web page -->
+        <main>
+            <section>
+                <input type="text" id="input-task">
+                <button type="button" id="add-task">Add</button>
+            </section>
+
+            <section id="todo-list-container">
+                <ol id="active-list">
+
+                </ol>
+
+                <ul id="completed-list">
+
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+
+        </footer>
+
+        <!-- Use custom javascript file -->
+        <script src="js/scripts.js" charset="utf-8"></script>
+	</body> 
+</html> 
