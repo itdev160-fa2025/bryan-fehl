@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<!-- The main head tag, used to define metadata for the document -->
+	<head>
+        <!--
+            Author: Bryan Fehl
+            Class: ITDEV-160-001
+        -->
+		<!-- Declare the encoding of the document -->
+		<meta charset="utf-8">
+
+        <!-- Provide a description of the web page for SEO purposes -->
+        <meta name="description" content="A simple todo list with javascript.">
+
+        <!-- Basic mobile optimized viewport-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Import Inter google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+        <!-- Use custom style sheet -->
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+		<!-- Give the document a proper title --> 
+		<title>Todo List</title> 
+	</head>
+
+	<!-- The body or contents of the document -->
+	<body>
+
+        <header>
+            <h1 class="header-title">Bly's Best Blog</h1>
+            <div class="header-menu">
+                <button id="new-button">New</button>
+            </div>
+        </header>
+
+        <!-- The main contents of the web page -->
+        <main>
+            <section id="display-content"></section>
+        </main>
+
+        <div class="modal" id="modal-dialog">
+            <section>
+                <h2>Title</h2>
+                <input type="text" id="edit-title-text">
+                <span id="edit-title-message"></span>
+            </section>
+            <section>
+                <h2>Content</h2>
+                <textarea name="edit-content-text" id="edit-content-text" cols="80" rows="8"></textarea>
+                <span id="edit-content-message"></span>
+            </section>
+            <section>
+                <button id="cancel-button">Cancel</button>
+                <button id="save-button">Save</button>
+            </section>
+        </div>
+        <div id="modal-backdrop"></div>
+
+        <footer>
+            &copy; Bly's Blogs LLC, 2024
+        </footer>
+        <!-- Use custom javascript file -->
+        <script src="js/scripts.js" charset="utf-8"></script>
+	</body> 
+</html> 
